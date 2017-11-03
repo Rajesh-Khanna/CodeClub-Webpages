@@ -1,0 +1,89 @@
+span{
+    display: inline-block;
+    vertical-align: middle;
+  line-height: normal;
+}
+
+#aps{
+  color: #ffffff;
+  font-family: "Times New Roman";
+  text-align: center; 
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+#ti{
+  position: fixed;
+  width: 100%; 
+  height: 80px;
+  background-color: #4885ed;
+  z-index: 20;
+  left : 0px;
+  top: 0px;
+  box-shadow: 0px 5px 10px rgba(255,255,255);
+}
+#team{
+  position: absolute;
+  height: 300px;
+  width: 100%;
+  background-color: #4885ed;
+  opacity: 0.7;
+  left: 0px;
+  top: 50px;
+}
+#cover{
+  height: 380px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: #222222 ;
+}
+
+td{
+  align-items : center ;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.stage {
+-webkit-perspective: 1000px;
+}
+
+.cubespinner {
+	
+  margin: 0 auto;
+  position : relative;	
+   -webkit-transform-origin: 125px 125px -125px;
+  -moz-transform-origin: 125px 125px -125px;
+  -ms-transform-origin: 125px 125px -125px;
+  transform-origin: 125px 125px -125px;
+  -webkit-transition: -webkit-transform 1s;
+  -webkit-transform-style: preserve-3d;
+  -moz-transition: -moz-transform 1s;
+  -moz-transform-style: preserve-3d;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+.cube > div {
+  position: absolute;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.cubespinner .face1 {
+	position: absolute;
+  -webkit-transform: translateZ(0px);
+  -moz-transform: translateZ(0px);
+  transform: translateZ(0px);
+}
+
+.cubespinner .face2 {
+	position: absolute;
+  -webkit-transform: rotateY(90deg) translateZ(125px) ;
+  -moz-transform: rotateY(90deg) translateZ(125px);
+  transform: rotateY(90deg) translateZ(125px) translateX(125px);
+}
