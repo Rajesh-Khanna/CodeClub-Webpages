@@ -196,6 +196,10 @@ window.onload = function(){
 	details2 = ['General Secretary','#','tanaybhartia@gmail.com','I dont know','#'];
 	SN = ['#','https://www.facebook.com/tanay.bhartia','https://www.linkedin.com/in/tanaybhartia/','#'];
 	new_card('Tanay Bhartia',3,'img/Tanay.jpg',details2[0],details2,SN);
+//	Siddharth Jain
+	details2 = ['General Secretary','#','1997jainsid@gmail.com','I dont know','#'];
+	SN = ['#','https://www.facebook.com/sid.thecooljain','https://www.linkedin.com/in/siddharth-jain-793830104/','#'];
+	new_card('Siddharth Jain',3,'img/SJ.jpg',details2[0],details2,SN);
 	
 //////////////////////////////////////template/////////////////////////////////////////////////////////
 /******
