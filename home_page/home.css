@@ -1,0 +1,7 @@
+.slider{
+  transition-duration: 1s;
+}
+
+nav{
+	position: -webkit-sticky;
+}

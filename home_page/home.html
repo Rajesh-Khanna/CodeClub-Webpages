@@ -1,0 +1,74 @@
+<html>
+<head>
+  <title>
+    Code-Clubs
+  </title>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <link href="home.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+</head>
+<body>
+<nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Logo</a>
+      <ul id="nav-mobile" class="right">
+        <li><a href="sass.html">About</a></li>
+        <li><a href="sass.html">Events</a></li>
+        <li><a href="sass.html">Blog</a></li>
+        <li><a href="G:\Codeclubs\webD\CodeClub-Webpages\contacts\index.html">Team</a></li>
+        <li><a href="collapsible.html">Projects</a></li>
+      </ul>
+    </div>
+  </nav>
+<div class="slider">
+   <ul class="slides">
+     <li>
+       <img src="s1.jpg"> <!-- random image -->
+       <div class="caption center-align">
+         <h3>This is our big Tagline!</h3>
+         <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+       </div>
+     </li>
+     <li>
+       <img src="department.jpg"> <!-- random image -->
+       <div class="caption left-align">
+         <h3>Left Aligned Caption</h3>
+         <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+       </div>
+     </li>
+   </ul>
+ </div>
+
+ <h2 class="container green-text thin">&#60Code-Club&#47&#62</h2>
+<div id= "main_area" class="container flow-text">
+
+<p>Department of CSE presents CodeClub:</p><i><blockquote class="thin">
+We believe in carving out young coders through workshops, fortnightly coding contest and much more!</blockquote>
+</i>
+  <div class="row">
+     <div class="col s6 offset-s6"><a href="#" class="fa fa-twitter"></a>Come and say hello to us on Twitter <a href="#">CodeClub</a>.</div>
+     <div class="col s6 offset-s6"><a href="https://www.facebook.com/CodeClub.IITKGP/" class="fa fa-facebook"></a>Visit us on Facebook <a href="#">CodeClub</a>.</div>
+     <div class="col s6 offset-s6"><a href="#" class="fa fa-youtube"></a>See us on Youtube <a href="#">CodeClub</a>.</div>
+
+   </div>
+
+</div>
+
+ <script>
+$(document).ready(function(){
+   $('.slider').slider();
+$('.carousel.carousel-slider').carousel({fullWidth: true});
+   setInterval(function() {
+      $('.carousel').carousel('next');
+    }, 10000);
+ });
+</script>
+
+
+
+</body>
+</hmtl>

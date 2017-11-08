@@ -78,12 +78,12 @@ function new_card(name,cat,im_src,details,details2,SN){
 	var card1 = document.createElement('div');
 	card1.setAttribute('class','card1');
 	card1.style.height = '250px';
-	card1.style.fontFamily ='arial';
+	card1.style.fontFamily ='Roboto';
 	var card2 = document.createElement('div');
 	card2.setAttribute('class','card2');
 	card2.style.height = '250px';
 	card2.style.width = '250px';
-	card2.style.fontFamily = 'arial';
+	card2.style.fontFamily = 'Roboto';
 	////////////////////////////////////////card1//////////////////////////////////////////////
 	var fill1 = document.createElement('div');
 	fill1.setAttribute('class','front_card');
