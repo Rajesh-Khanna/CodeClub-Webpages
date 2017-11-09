@@ -2,6 +2,6 @@
   transition-duration: 1s;
 }
 
-nav{
-	position: -webkit-sticky;
+.navbar-fixed{
+	z-index: 100;
 }
