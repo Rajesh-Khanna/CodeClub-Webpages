@@ -11,9 +11,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 </head>
-<body>
 <nav>
-<div class="navbar-fixed">
+<div class="nav-fixed">
     <div class="nav-wrapper">
       <ul id="slide-out" class="side-nav show-on-medium-and-down">
           <li><div class="user-view">
@@ -43,10 +42,9 @@
         <li><a href="#">Projects</a></li>
       </ul>
     </div>
-  </nav>
-</div>
-
-
+	</div>
+</nav>
+<body>
 <div class="slider">
    <ul class="slides">
      <li>
@@ -72,15 +70,13 @@
 <p>Department of CSE presents CodeClub:</p><i><blockquote class="thin">
 We believe in carving out young coders through workshops, fortnightly coding contest and much more!</blockquote>
 </i>
-  <div class="row">
+</div>
+<div class="row right flow-text">
      <div class="col s6 offset-s6"><a href="#" class="fa fa-twitter"></a>Come and say hello to us on Twitter <a href="#">CodeClub</a>.</div>
      <div class="col s6 offset-s6"><a href="https://www.facebook.com/CodeClub.IITKGP/" class="fa fa-facebook"></a>Visit us on Facebook <a href="#">CodeClub</a>.</div>
      <div class="col s6 offset-s6"><a href="#" class="fa fa-youtube"></a>See us on Youtube <a href="#">CodeClub</a>.</div>
 
-   </div>
-
 </div>
-
  <script>
 $(document).ready(function(){
    $('.slider').slider();
@@ -95,15 +91,8 @@ $('.carousel.carousel-slider').carousel({fullWidth: true});
        edge: 'left', // Choose the horizontal origin
        closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
        draggable: true, // Choose whether you can drag to open on touch screens,
-       onOpen: function(el) { /* Do Stuff*/ }, // A function to be called when sideNav is opened
-       onClose: function(el) { /* Do Stuff*/ }, // A function to be called when sideNav is closed
      }
    );
-
-
 </script>
-
-
-
 </body>
 </hmtl>

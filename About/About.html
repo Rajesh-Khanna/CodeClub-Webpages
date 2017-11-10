@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <title>
+      About CodeClubs
+    </title>
+  </head>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<link href="home.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<nav>
+<div class="nav-fixed">
+    <div class="nav-wrapper">
+      <ul id="slide-out" class="side-nav show-on-medium-and-down">
+          <li><div class="user-view">
+            <div class="background">
+              <img src="images/office.jpg">
+            </div>
+            <a href="#!user"><img class="circle" src="images/yuna.jpg"></a>
+            <a href="#!name"><span class="white-text name">John Doe</span></a>
+            <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
+          </div></li>
+          <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+          <li><a href="..\About\About.html">About</a></li>
+          <li><div class="divider"></div></li>
+          <li><a class="subheader">Subheader</a></li>
+          <li><a class="waves-effect" href="#!">Events</a></li>
+          <li><a class="waves-effect" href="#!">Blog</a></li>
+          <li><a class="waves-effect" href="..\contacts\index.html">Team</a></li>
+          <li><a class="waves-effect" href="#!">Projcts</a></li>
+        </ul>
+        <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+      <a href="#" class="brand-logo">Logo</a>
+      <ul id="nav-mobile" class="hide-on-med-and-down right">
+        <li><a href="..\About\About.html">About</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="..\contacts\index.html">Team</a></li>
+        <li><a href="#">Projects</a></li>
+      </ul>
+    </div>
+	</div>
+</nav>
+  <body>
+
+<div class="container"></div>
+  
+  </body>
+  <script>
+$('.button-collapse').sideNav({
+      menuWidth: 300, // Default is 300
+      edge: 'left', // Choose the horizontal origin
+      closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      draggable: true, // Choose whether you can drag to open on touch screens,
+    }
+  );
+</script>
+
+</html>

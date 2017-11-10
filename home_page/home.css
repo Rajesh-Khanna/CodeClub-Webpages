@@ -1,7 +1,8 @@
 .slider{
   transition-duration: 1s;
 }
-
-.navbar-fixed{
-	z-index: 100;
+.row
+{
+	background-color: #FDF3E7;
+	width: 100%;
 }
