@@ -4,6 +4,10 @@ span{
     vertical-align: middle;
   line-height: normal;
 }
+.nav-wrapper{
+	opacity: 0.7;
+	z-index:20;
+}
 
 #aps{
   color: #ffffff;
@@ -24,16 +28,16 @@ span{
   /* box-shadow: 0px 5px 10px rgba(255,255,255); */
 /* } */
 #team{
-/*  position: absolute;
-*/  height: 300px;
-  width: 100%;
-  background-color: #1b5e20;/*green accent-3;*/
-  opacity: 0.7;
+position: absolute;
+/*height: 300px;
+*/  width: 100%;
   left: 0px;
-  /*top: 50px;*/
+  top: 0px;
+  z-index: -1;
 }
-#cover{
-  height: 380px;
+
+.page{
+	position:relative;
 }
 
 a {
@@ -53,6 +57,7 @@ a:hover {
 .stage {
 -webkit-perspective: 1000px;
 }
+
 
 .cubespinner {
 	
